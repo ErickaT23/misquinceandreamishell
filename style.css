@@ -1,5 +1,5 @@
 :root {
-    --color-1: rgb(183, 102, 129);
+    --color-1: Tan;
     --font-1: "cormorant garamond", serif;
     --scroll-animation-duration: 0.5s;
 }
@@ -114,7 +114,7 @@ body {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: var(--color-1);
+    color: Olive;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     margin: 0;
     font-family: var(--font-1);
@@ -128,7 +128,7 @@ body {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: var(--color-1);
+    color: Olive;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     margin: 0;
     font-family: var(--font-1);
@@ -142,7 +142,7 @@ body {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: var(--color-1);
+    color: Olive;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     margin: 0;
     font-family: var(--font-1);
@@ -169,7 +169,7 @@ body {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 .section-filter{
-    background-color: #f8eef3ca;
+    background-color:#fffbf7;
 }
 .section-main {
     position: relative;
@@ -208,7 +208,7 @@ body {
     margin-bottom: 10px;
 }
 .section-music h2{
-    color: #8B4513;
+    color: rgb(173, 173, 94);
     font-family: var(--font-1);
     font-size: 20px;
     font-weight: 400;
@@ -227,7 +227,7 @@ body {
     align-items: center;
 }
 .section-countdown h1 {
-    color: rgb(183, 102, 129);
+    color: Tan;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     font-family: var(--font-1);
     font-size: 42px;
@@ -238,7 +238,7 @@ body {
 }
 .section-countdown p {
     margin: 0;
-    color: rgb(183, 102, 129);
+    color: Tan;
     font-family: var(--font-1);
     font-weight: 400;
     font-style: italic;
@@ -265,7 +265,7 @@ body {
 .countdown-circle {
     width: 75px;
     height: 75px;
-    background:#8B4513;
+    background:rgb(173, 173, 94);
     border-radius: 50%;
     display: flex;
     flex-direction: column;
@@ -376,6 +376,17 @@ body {
     font-size: 24px;
     color: var(--color-1);
 }
+.verisculo h1{
+    color: rgb(173, 173, 94);
+    font-family: var(--font-1);
+    padding: 15px;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
 .section-b h1, .section-b h2, .section-b h3{
     font-family: var(--font-1);
     padding: 15px;
@@ -384,7 +395,7 @@ body {
     font-size: 35px;
     margin-top: -10px;
     margin-bottom: -10px;
-    color: SaddleBrown;
+    color: rgb(173, 173, 94);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 .section h2, .section-playlist h2, .section-gifts h2, .section h3, .section-filter h2{
@@ -392,7 +403,7 @@ body {
     padding: 10px;
     font-weight: 400;
     font-style: italic;
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 20px;
     margin-bottom: 10px;
     color: var(--color-1);
@@ -478,7 +489,7 @@ body {
     cursor: pointer;
 }
 button {
-    background-color: SaddleBrown;
+    background-color: rgb(173, 173, 94);
     color: #fff;
     border-radius: 5px;
     font-family: var(--font-1);
@@ -646,60 +657,19 @@ footer {
 }
 
 .upload-btn:hover {
-    background-color: SaddleBrown;
+    background-color: rgb(173, 173, 94);
     color: #fff;
 }
 
 .hashtag {
-    font-size: 32px;
+    font-size: 30px;
     font-family: var(--font-1);
     font-style: italic;
     color: var(--color-1);
     margin-top: -10px;
 }
-#wishes-section {
-    padding: 30px 20px;
-    font-family: var(--font-1);
-  }
-  
-  #wishes-section h2 {
-    font-size: 38px;
-    color: var(--color-1);
-    font-style: italic;
-    margin-bottom: 20px;
-  }
-  
-  #wishes-container {
-    margin: 20px auto;
-    max-width: 600px;
-    text-align: left;
-  }
-  
-  #wishes-container p {
-    background: #fff;
-    color: var(--color-1);
-    padding: 10px 15px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-  }
-  
-  #wish-form input,
-  #wish-form textarea {
-    width: 90%;
-    margin: 10px 0;
-    padding: 10px;
-    font-family: var(--font-1);
-    font-style: italic;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-  }
-  
-  #wish-form textarea {
-    min-height: 100px;
-    resize: vertical;
-  }
-  
-  .hidden {
+
+.hidden {
     display: none;
   }
   /* Estilo general de los botones */
@@ -708,7 +678,6 @@ button,
 .section-calendar a {
   transition: all 0.3s ease-in-out;
 }
-
 /* Hover para botones regulares */
 button:hover,
 .upload-btn:hover {
@@ -718,7 +687,6 @@ button:hover,
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
-
 /* Hover para botón de calendario con clase especial */
 .section-calendar:hover {
   background-color: #C7889D;

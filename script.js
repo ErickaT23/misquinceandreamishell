@@ -79,7 +79,7 @@ async function cargarDatosInvitado() {
 
 // Función para iniciar el contador de la fecha del evento
 function iniciarContador() {
-    const eventoFecha = new Date("September 27, 2025 20:00:00").getTime();
+    const eventoFecha = new Date("December 12, 2025 19:00:00").getTime();
 
     setInterval(() => {
         const ahora = new Date().getTime();
@@ -161,7 +161,7 @@ function confirmarAsistencia() {
       ? `Hola, soy ${nombre} y confirmo mi asistencia a los quince de nuestra querida Melanie con 1 pase asignado.`
       : `Hola, somos ${nombre} y confirmamos nuestra asistencia a los quince de nuestra querida Melanie con ${pases} pases asignados.`;
   
-    const numeroTelefono = '50255375648';
+    const numeroTelefono = '50242169141';
     const enlaceWhatsapp = `https://api.whatsapp.com/send?phone=${numeroTelefono}&text=${encodeURIComponent(mensaje)}`;
     window.open(enlaceWhatsapp, '_blank');
   }
@@ -170,8 +170,8 @@ function confirmarAsistencia() {
 //Funcion para abrir waze o maps
 //iglesia
 function elegirAplicacion() {
-    const enlaceGoogleMaps = 'https://maps.app.goo.gl/cCT4aNW5xAo4j28n9';
-    const enlaceWaze = 'https://waze.com/ul/h9fxehkc06';
+    const enlaceGoogleMaps = 'https://maps.app.goo.gl/7h25wkMjiY3V37MSA';
+    const enlaceWaze = 'htthttps://www.waze.com/en/live-map/directions/colina-country-club-cito-180-quezaltenango?place=w.175964308.1759774157.9410872';
 
     // Intentar abrir Google Maps primero
     window.open(enlaceGoogleMaps, '_blank');
