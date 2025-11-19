@@ -15,10 +15,8 @@ body {
     text-align: center;
     font-family: 'cormorant garamond';
     font-style: italic;
-    background: white;
-
+    background-color: floralwhite;
 }
-
 #envelope {
     position: fixed;
     top: 0;
@@ -35,13 +33,13 @@ body {
 #envelope-top {
     top: 0;
     border-bottom: none;
-    background-image: url(/Imagenes/arriba.png);
+    background-image: url(/Imagenes/enve.svg);
 }
 /* Parte inferior del sobre (cuerpo) */
 #envelope-bottom {
     bottom: 0;
     border-top: none;
-    background-image: url(/Imagenes/abajo.png);
+    background-image: url(/Imagenes/enve.svg);
 }
 #envelope-top, #envelope-bottom {
     position: absolute;
@@ -61,7 +59,7 @@ body {
     transform: translate(-50%, -50%);
     width: 145px;
     height: 145px;
-    background: #a2b5a3;
+    background: #cad4cb;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.216);
     border-radius: 50%;
     display: flex;
@@ -73,11 +71,17 @@ body {
 }
 #seal h2 {
     margin: 0;
-    font-size: 20px;
-    color: white;
+    font-size: 21px;
     font-family: var(--font-1);
     font-weight: 400;
     font-style: italic;
+    background: linear-gradient(135deg, #c4d9c7,#a2b5a3,#6f7e6d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation: brillar 5s ease-in-out infinite;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.15); /* ayuda visual sin ensuciar */
 }
 #invitacion {
     display: none;
@@ -604,7 +608,7 @@ button:hover {
 }
 footer {
     padding: 20px;
-    background: #333;
+    background: #6f7e6d;
     color: white;
     font-size: var(--footer-font-size);
     width: 100%;
