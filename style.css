@@ -107,8 +107,13 @@ body {
     font-style: italic;
     font-size: 45px;
     white-space: nowrap;
-    margin-top: 30px;
-    background: linear-gradient(135deg, #f4c6ce,  #e89aaa, #d77488, #f7dce2);
+    margin-top: 70px;
+    background: linear-gradient(  135deg,
+    #fdf8f2,  /* perla muy clara */
+    #f2e6d8,  /* champagne suave */
+    #e5d5c0,  /* beige satinado */
+    #fffaf5,  /* luz nacarada */
+    #ddcbb5   /* dorado mate perlado */);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -137,8 +142,13 @@ body {
     font-style: italic;
     font-size: 35px;
     white-space: nowrap;
-    margin-top: -22px;
-    background: linear-gradient(135deg, #f4c6ce,  #e89aaa, #d77488, #f7dce2);
+    margin-top: 15px;
+    background: linear-gradient(  135deg,
+    #fdf8f2,  /* perla muy clara */
+    #f2e6d8,  /* champagne suave */
+    #e5d5c0,  /* beige satinado */
+    #fffaf5,  /* luz nacarada */
+    #ddcbb5   /* dorado mate perlado */);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -370,11 +380,12 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('/Imagenes/127.png');
+    background-image: url('/Imagenes/iz.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     z-index: 1;
+    opacity: 0.8;
 }
 .section-cerezo{
     position: relative;
@@ -393,11 +404,12 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('/Imagenes/126.png');
+    background-image: url('/Imagenes/de.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     z-index: -1;
+    opacity: 0.8;
 }
 .section-b p{
     font-family: var(--font-1);
