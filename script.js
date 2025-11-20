@@ -158,8 +158,8 @@ function confirmarAsistencia() {
   
     // Construcción del mensaje según la cantidad de pases
     const mensaje = (pases === 1)
-      ? `Hola, soy ${nombre} y confirmo mi asistencia a los quince de nuestra querida Melanie con 1 pase asignado.`
-      : `Hola, somos ${nombre} y confirmamos nuestra asistencia a los quince de nuestra querida Melanie con ${pases} pases asignados.`;
+      ? `Hola, soy ${nombre} y confirmo mi asistencia a los quince de nuestra querida Andrea Mishelle con 1 pase asignado.`
+      : `Hola, somos ${nombre} y confirmamos nuestra asistencia a los quince de nuestra querida Andrea Mishelle con ${pases} pases asignados.`;
   
     const numeroTelefono = '50242169141';
     const enlaceWhatsapp = `https://api.whatsapp.com/send?phone=${numeroTelefono}&text=${encodeURIComponent(mensaje)}`;
