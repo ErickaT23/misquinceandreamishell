@@ -351,7 +351,17 @@ body {
     background-color: var(--color-1);
 }
 .section-calendar a:hover {
-    color: white;
+    background: linear-gradient(  135deg,
+    #fdf8f2,  /* perla muy clara */
+    #f2e6d8,  /* champagne suave */
+    #e5d5c0,  /* beige satinado */
+    #fffaf5,  /* luz nacarada */
+    #ddcbb5   /* dorado mate perlado */);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation: brillar 5s ease-in-out infinite;
 }
 .section-b{
     position: relative;
@@ -623,7 +633,8 @@ button, .upload-btn {
     text-decoration: none;
 }
 button:hover {
-    background-color: var(--secondary-color);
+    background-color:#6f7e6d;
+    
 }
 footer {
     padding: 20px;
